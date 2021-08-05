@@ -1,5 +1,5 @@
 {
-  "name": "templates",
+  "name": "@pdf-me/templates",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -27,6 +27,7 @@
     "@nestjs/core": "^8.0.0",
     "@nestjs/microservices": "^8.0.5",
     "@nestjs/platform-express": "^8.0.0",
+    "@pdf-me/shared": "^1.0.0",
     "@types/hapi__joi": "^17.1.7",
     "amqp-connection-manager": "^3.2.2",
     "amqplib": "^0.8.0",
