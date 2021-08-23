@@ -43,7 +43,10 @@ export class TemplatesService {
   }
 
   async update(updateData: UpdateTemplateDto) {
-    return await this.templateRepository.save(updateData);
+    return await this.templateRepository.update(
+      { ownerId: updateData.ownerId },
+      updateData,
+    );
   }
 
   async delete(templateId: number) {
