@@ -6,7 +6,7 @@ This service main concern is to manage document templates from user input for fu
 
 ## Development
 
-To start api-gateway service in development mode first of all install npm dependencies:
+To start templates service in development mode first of all install npm dependencies:
 
 ```bash
 npm i
