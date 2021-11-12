@@ -1,7 +1,7 @@
 import { Controller } from '@nestjs/common';
 import { TemplatesService } from './templates.service';
 import { MessagePattern, Payload } from '@nestjs/microservices';
-import { CreateTemplateDto, UpdateTemplateDto } from '@pdf-me/shared';
+import { CreateTemplateDto, UpdateTemplateDto } from '@eabald/pdf-me-shared';
 
 @Controller('templates')
 export class TemplatesController {

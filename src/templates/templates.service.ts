@@ -4,7 +4,7 @@ import {
   TemplateEntity,
   CreateTemplateDto,
   UpdateTemplateDto,
-} from '@pdf-me/shared';
+} from '@eabald/pdf-me-shared';
 import { RpcException } from '@nestjs/microservices';
 import { Repository } from 'typeorm';
 
